@@ -31,7 +31,7 @@ class EditScheduleActivity : BaseActivity() {
             alert.setTitle("저장 확인")
             alert.setMessage("정말 일정을 저장하겠습니까?")
             alert.setPositiveButton("확인", DialogInterface.OnClickListener { dialog, which ->
-                Toast.makeText(this, "일정을 저장했습니다.", Toast.LENGTH_SHORT)
+                Toast.makeText(this, "일정을 저장했습니다.", Toast.LENGTH_SHORT).show()
             })
             alert.setNegativeButton("취소", null)
             alert.show()
